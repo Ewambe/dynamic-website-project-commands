@@ -8,6 +8,6 @@ Start-Service ssh-agent
 Get-Service ssh-agent
 
 # Now load your key files into the ssh-agent
-ssh-add C:\Users\Admin\my-ec2key.pem
+ssh-add C:\Users\ewamb\Downloads\keys\rent.pem
 
 # SSH into the instance (bastion host) in the public subnet. Remember to allow agent forwarding
