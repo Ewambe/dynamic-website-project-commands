@@ -11,3 +11,7 @@ Get-Service ssh-agent
 ssh-add C:\Users\ewamb\Downloads\keys\rent.pem
 
 # SSH into the instance (bastion host) in the public subnet. Remember to allow agent forwarding
+ssh -A ec2-user@publicipv4
+
+#SSH into private webserver
+ssh privateserver ip 
